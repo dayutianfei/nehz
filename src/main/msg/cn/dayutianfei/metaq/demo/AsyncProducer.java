@@ -36,7 +36,6 @@ public class AsyncProducer {
             try {
                 producer.sendMessage(new Message(topic, line.getBytes()), new SendMessageCallback() {
 
-                    @Override
                     public void onMessageSent(final SendResult result) {
                         if (result.isSuccess()) {
                             System.out.println("Send message successfully,sent to " + result.getPartition());
@@ -47,9 +46,6 @@ public class AsyncProducer {
                         }
 
                     }
-
-
-                    @Override
                     public void onException(final Throwable e) {
                         e.printStackTrace();
 
