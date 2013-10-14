@@ -5,6 +5,9 @@
   <version>0.1</version>
   <name>nehz</name>
   <description>personal use to test any possibility</description>
+  <properties>  
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
+  </properties>  
   <dependencies>
   	<dependency>
   		<groupId>commons-lang</groupId>
@@ -32,4 +35,5 @@
   		<version>1.6.1</version>
   	</dependency>
   </dependencies>
+  
 </project>
