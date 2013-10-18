@@ -15,7 +15,7 @@ public class DownFileInfoBean {
      */  
     public DownFileInfoBean() {  
         // default 5  
-        this("", "", "", 5,false,null);  
+        this("", "", "", 5,true,null);  
     }  
       
     /** 
